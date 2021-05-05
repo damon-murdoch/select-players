@@ -1,4 +1,4 @@
-# select-players
+# Select-Players
 ## Team-Based Tournament Player Selector Tool
 ### Created by Damon Murdoch 
 
