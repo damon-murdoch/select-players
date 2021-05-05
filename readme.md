@@ -3,7 +3,7 @@
 ### Created by Damon Murdoch 
 
 ## Description
-Given a list (csv) of players, select which players should be picked for this week of the tournament.
+Given a list of player names which should be selected for this week (in players.csv) and an (optional) number of players to select, selects the players from the list depending on who has played the least, and their win/loss ratio as a secondary sorting method. 
 
 ## Future Changes
 A list of future planned changes are listed below.
