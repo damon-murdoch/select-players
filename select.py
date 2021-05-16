@@ -28,7 +28,7 @@ class Player:
 
     # If the player is available this week or not
     # If this is 0 (false), the player will not be picked
-    self.available = bool(list[3])
+    self.available = bool(int(list[3]))
 
     # Total number of games the player has played
     # Used as the primary selector for picking players
@@ -139,7 +139,7 @@ if __name__ == '__main__':
     for sel in range(len(selected)):
 
       # Print the name of the player
-      print(sel,selected[sel].name)
+      print(str(sel + 1) + ".",selected[sel].name)
 
   else:
     # File does not exist
